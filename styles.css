@@ -163,3 +163,39 @@ footer a:hover {
 }
 
 /* Media queries */
+
+@media (max-width: 768px) {
+  header {
+    grid-template-columns: 1fr;
+  }
+  main {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    column-gap: 0;
+  }
+  footer {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  footer ul li {
+    list-style: none;
+  }
+  footer h4 {
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .splash {
+    display: none;
+  }
+  main {
+    width: 90%;
+  }
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}

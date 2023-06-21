@@ -1,0 +1,12 @@
+{
+  "name": "lab-css-media-queries",
+  "version": "1.0.0",
+  "description": "TekNews has a great looking website but it was only built for the desktop! Update the website so it can look good on any device.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
